@@ -7,6 +7,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 
             int a = 0, b = 0, c = 0;
@@ -19,6 +20,9 @@ namespace ConsoleApp1
 =======
             else if (c == 3) { Console.WriteLine(a * b); }
 >>>>>>> Umno
+=======
+            else if (c == 4) { Console.WriteLine(a / b); }
+>>>>>>> Delet
 
         }
     }
