@@ -6,6 +6,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+
             int a = 0, b = 0, c = 0;
 
             Console.WriteLine("введите а \n введите b \n 1) + \n 2) - \n 3) * \n 4) /");
@@ -13,6 +14,9 @@ namespace ConsoleApp1
             a = Convert.ToInt32(Console.ReadLine());
 
             b = Convert.ToInt32(Console.ReadLine());
+
+            c = Convert.ToInt32(Console.ReadLine());
+            if (c == 1) { Console.WriteLine(a + b); }
 
         }
     }
