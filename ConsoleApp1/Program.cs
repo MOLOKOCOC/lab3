@@ -6,6 +6,7 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+<<<<<<< HEAD
 
 
             int a = 0, b = 0, c = 0;
@@ -15,6 +16,9 @@ namespace ConsoleApp1
             c = Convert.ToInt32(Console.ReadLine());
             if (c == 1) { Console.WriteLine(a + b); }
             else if (c == 2) { Console.WriteLine(a - b); }
+=======
+            else if (c == 3) { Console.WriteLine(a * b); }
+>>>>>>> Umno
 
         }
     }
